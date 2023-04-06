@@ -1,0 +1,78 @@
+.intro-aligner h1 {
+	min-height: 180px;
+}
+.intro-holder {
+	height: 615px;
+	padding: 56px 15px 83px;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	background-image: url(img//general-0-swaps-mobile.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.intro-aligner {
+	margin: auto;
+	max-width: 260px;
+}
+
+
+p.note {
+	margin: 15px auto;
+	line-height: 15px;
+}
+
+p.tc {
+
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0 auto;
+	max-width: 244px;
+}
+
+.base-layer {
+	background-color: #201D27;
+}
+
+.gradient {
+	background: linear-gradient(180deg, rgba(32, 46, 71, 0.65) 36.53%, rgba(32, 46, 71, 0.6175) 57.69%, rgba(32, 46, 71, 0.585) 78.84%, rgba(32, 46, 71, 0) 100%);
+	mix-blend-mode: multiply;
+}
+
+
+h1 span {
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 40px;
+	/* or 247% */
+
+
+	align-items: center;
+	text-align: center;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin: 0 auto 20px;
+	color: #DDDDDD;
+}
+
+h1 strong {
+	font-weight: bold;
+}
+
+.intro-holder h1 {
+    min-height: 180px;
+}
+
+@media only screen and (min-width: 768px){
+.intro-aligner {
+    max-width: 500px;
+}}
+
+@media only screen and (min-width: 1200px){
+.intro-aligner {
+    max-width: 620px;
+}
+}

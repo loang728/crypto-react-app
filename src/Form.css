@@ -1,0 +1,122 @@
+.form-revamp {
+	padding: 0 35px 71px 25px;
+}
+
+.form-revamp__wrapper {
+	/* width: 260px; */
+	margin: auto;
+	max-width: 455px;
+}
+
+ul.password-criteria li,
+.error {
+	color: #959595;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 10px;
+	margin-bottom: 7px;
+	height: 10px;
+}
+
+.error {
+    font-size: 14px;
+    color: #d51820;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 11px;
+    line-height: 13px;
+    margin-top: 8px;
+}
+
+
+ul.password-criteria li:before,
+.error:before {
+	content: " ";
+	display: inline-block;
+	font: normal normal normal 10px/1 FontAwesome;
+	color: #ccc;
+	margin-right: 0.5rem;
+	border: 3px solid gray;
+	border-radius: 50%;
+	width: 9px;
+	height: 9px;
+	box-sizing: border-box;
+}
+.error:before {
+    border-color: #d51820;
+}
+ label {
+	font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    height: 14px;
+    display: block;
+    margin: 15px 0 10px 0;
+    text-align: left;
+
+}
+
+.form-revamp__wrapper {
+	/* width: 260px; */
+	margin: auto;
+	max-width: 455px;
+}
+
+
+
+
+.error.show {
+	display: block;
+}
+
+ul.password-criteria li.bad {
+	color: #D51820;
+}
+
+ul.password-criteria li.bad:before {
+	border-color: #D51820;
+}
+
+ul.password-criteria li.good {
+	color: #29A643;
+}
+
+ul.password-criteria li.good:before {
+	border-color: #29A643;
+}
+
+div.success {
+	padding: 47px 32px;
+	color: #3C763D;
+	background-color: #fff;
+	margin: 30px 0;
+	height: 211px;
+	line-height: 211px;
+	box-sizing: border-box;
+	max-width: 827px;
+	width: 100%;
+}
+
+ ul.password-criteria {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #3e2c2c;
+    padding-left: 0;
+    margin: 15px auto 46px;
+}
+input {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    height: 40px;
+    /* box-sizing: border-box; */
+    border: none;
+}

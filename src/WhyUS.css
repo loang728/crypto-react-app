@@ -1,0 +1,152 @@
+
+ul.advantages {
+	margin: auto;
+}
+
+ul.advantages li {
+	width: 280px;
+	height: 235px;
+	background-color: #0B0819;
+	border-radius: 10px;
+	padding: 43px 30px;
+	box-sizing: border-box;
+	margin: 0 auto 25px;
+	position: relative;
+}
+
+ul.advantages li:after {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	content: "";
+	position: absolute;
+	right: 18px;
+	top: 18px;
+	width: 59.89px;
+	height: 58.57px;
+}
+ul.advantages li:last-child{margin-bottom:0px;}
+
+
+ul.advantages li.fast-execusion:after {
+	background-image: url("img/fast-execusion-icon.png");
+	width: 29px;
+	height: 55px;
+	background-size: cover;
+}
+
+ul.advantages li.competitive-pricing:after {
+	background-image: url("img/competitive-pricing-icon.png");
+	width: 55px;
+	height: 55px;
+}
+
+ul.advantages li.tech:after {
+	background-image: url("img/tech-icon.png");
+	width: 55px;
+	height: 55px;
+}
+
+ul.advantages li.dollar:after {
+	background-image: url("img/dollar-icon.png");
+	width: 40px;
+	height: 55px;
+}
+
+ul.advantages li h3 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 25px;
+	max-width: 140px;
+	text-align: left;
+	/* height: 3px; */
+	position: relative;
+	padding-bottom: 20px;
+	margin: 0 0 20px 0;
+}
+
+ul.advantages li h3:after {
+	display: inline-block;
+	width: 50px;
+	height: 2px;
+	content: "";
+	background-color: #29A643;
+	position: absolute;
+	left: 0;
+	margin-top: 20px;
+	bottom: 0;
+	border-radius: 2px;
+}
+
+
+.green-underline {
+	position: relative;
+	display: inline-block;
+	margin: auto;
+}
+
+.green-underline:after {
+	display: inline-block;
+	width: 50px;
+	height: 2px;
+	content: "";
+	background-color: #29A643;
+	/* position: absolute; */
+	left: 0;
+	margin-top: 20px;
+	bottom: 0;
+	border-radius: 2px;
+	display: block;
+	margin: 25px auto;
+
+}
+
+ul.advantages li p {
+	width: 190px;
+	height: 60px;
+	left: 45px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+	margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+	p.why {
+		max-width: 640px;
+		margin: 25px auto 60px;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	ul.advantages {
+		height: 570px;
+		width: 1000px;
+		margin-bottom: 90px;
+	}
+
+	ul.advantages li {
+		float: left;
+		height: 265px;
+		margin-left: 20px;
+	}
+
+	ul.advantages li:first-child {
+		height: 100%;
+	}
+
+	ul.advantages li:nth-child(2) {
+		width: 676px;
+		margin-bottom: 20px;
+	}
+
+	ul.advantages li:nth-child(3),
+	ul.advantages li:nth-child(4) {
+		height: 285px;
+		width: 328px;
+	}
+}

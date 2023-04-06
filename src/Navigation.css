@@ -1,0 +1,46 @@
+nav {
+	background-color: #000000;
+	height: 95px;
+	line-height: 95px;
+	text-align: center;
+}
+
+nav a.logo {
+	display: inline-block;
+	width: 140px;
+	height: 49px;
+	background-image: url("img/xm-logo-mobile.png");
+	vertical-align: middle;
+}
+
+nav ul.menu {
+	display: none;
+}
+@media only screen and (min-width: 1200px){
+nav ul.menu {
+    display: inline-block;
+    float: right;
+}
+nav a.logo {
+    float: left;
+    margin: 33px 0 0 30px;
+    /* vertical-align: middle; */
+    display: inline-block;
+}
+nav ul.menu li {
+    float: left;
+    margin: 0 50px 0 0;
+}
+}
+
+ul.menu li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    /* margin: 0 50px 0 0; */
+    text-decoration: none;
+}
+

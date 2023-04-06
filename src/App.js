@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Navigation from './Navigation';
+import Home from './Home';
+import About from './About';
+
+import StaticImageSet from './StaticImageSet';
+import { useMediaQuery } from 'react-responsive';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <Navigation />
+        <article>
+
+              <Routes>
+                <Route path="/" element={<Home />}></Route>
+                <Route path="/about" element={<About />}></Route>
+              </Routes>
+
+        </article>
+      </div>
+    </>
   );
 }
 

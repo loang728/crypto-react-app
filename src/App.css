@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+
+.highlight {
+  color: #D51820;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body {
+	background-color: #fff;
+	height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+article {
+	color: #fff;
+	text-align: center;
+	position: relative;
+}
+h2 {
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 43px;
+	letter-spacing: 0px;
+	text-align: center;
+
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 43px;
+	letter-spacing: 0px;
+	text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+article p {
+	margin: auto;
+}
+div.gray-bg {
+	background-color: #201D27;
 }
 
-.App-link {
-  color: #61dafb;
+.base-layer {
+  background-color: #201D27;
+}
+.base-layer, .gradient {
+  height: 615px;
+  width: 100%;
+  position: absolute;
+  top: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.content {
+	z-index: 1;
+	position: relative;
+	overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+.base-layer {
+	background-color: #201D27;
+}
+
+.gradient {
+	background: linear-gradient(180deg, rgba(32, 46, 71, 0.65) 36.53%, rgba(32, 46, 71, 0.6175) 57.69%, rgba(32, 46, 71, 0.585) 78.84%, rgba(32, 46, 71, 0) 100%);
+	mix-blend-mode: multiply;
+}
+.content {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
 }
