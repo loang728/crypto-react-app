@@ -1,133 +1,131 @@
-ul.crypto {
+.carousel {
+	margin-bottom: 55px;
+}
+
+.carousel_wrapper {
+	background: #F4F4F4;
+	display: inline-block;
 	width: 100%;
+
 }
 
-ul.crypto li {
-	width: 236px;
-	height: 144px;
-	background-color: #8C8C8C1A;
-	border: 1px solid #A7A7A733;
-	border-radius: 13px;
-	padding: 0 15px;
-	box-sizing: border-box;
-	margin: 0 16px 34px 0;
+.carousel_wrapper ul {
+	width: 225px;
+	scroll-behavior: smooth;
 	display: inline-block;
-}
-
-ul.crypto li .title {
-	width: 205px;
-	height: 64px;
-	border-bottom: 1px solid #A7A7A733;
-	margin: auto;
-	line-height: 64px;
-	box-sizing: border-box;
-	text-align: left;
-}
-
-.underline {
-	text-decoration: underline;
-}
-
-ul.crypto li span {
-	display: inline-block;
+	position: relative;
 	vertical-align: middle;
-	font-size: 10px;
-	line-height: 15px;
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 500;
+	text-align: center;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+}
+
+.carousel_wrapper ul::-webkit-scrollbar {
+	display: none;
+}
+
+.carousel_wrapper h3 {
 	color: #000;
+	margin-top: 52px;
 }
 
-
-span.ico {
-
-	width: 35px;
-	height: 35px;
-	border-radius: 50%;
-	display: block;
-	margin: 0 8px 10px 0;
-	font-family: 'Font Awesome 6 Pro';
-	font-size: 26px;
-	font-weight: 300;
-	line-height: 30px;
-	letter-spacing: 0px;
-	text-align: left;
-	background-image: url("./img/sp-crypto.png");
-	width: 35px;
-	height: 35px;
-	background-size: cover;
-}
-
-ul.crypto li span.btc {
-	background-image: url("./img/crypto/btc.svg");
-}
-
-ul.crypto li span.bch {
-	background-image: url("img/crypto/bch.svg");
-}
-
-ul.crypto li span.eth {
-	background-image: url("./img/crypto/eth.svg");
-}
-
-ul.crypto li span.ltc {
-	background-image: url("./img/crypto/ltc.svg");
-}
-
-ul.crypto li span.xrp {
-	background-image: url("./img/crypto/xrp.svg");
-}
-
-
-span.type {
-	max-width: 100px;
-	height: 15px;
-	background-color: #FFF8D6;
-	border-radius: 3px;
-	margin: 0 0 0 8px;
-	padding: 0 10px;
-	text-transform: uppercase;
-	color: #000;
-	font-weight: 500;
-}
-
-div.amount {
-	height: 38px;
-	line-height: 38px;
-	font-weight: 700;
-	font-size: 17.4275px;
-	font-family: 'Roboto', sans-serif;
-	text-align: left;
-}
-
-div.precentage {
-	text-align: left;
-	font-size: 12.1993px;
-	line-height: 120%;
-	font-family: 'Roboto', sans-serif;
-}
-
-.precentage:before {
+.carousel_wrapper li {
+	list-style: none;
 	display: inline-block;
-	width: 8px;
-	height: 10px;
-	content: "*";
+	filter: grayscale(100%);
+	transition: 0.2s;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 60px;
+	margin: 0 20px 0 0;
+	background-color: #DADADA;
+	border: 0.5px solid #CDCDCD;
+	-webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+	-moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+	box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+	background-color: #DADADA;
+	border: 0.5px solid #CDCDCD;
+	box-sizing: border-box;
+	-webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+	-moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+	box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
 }
 
-.precentage.up {
-	color: #B1FFC2;
+.carousel_wrapper img {
+	text-indent: -9999px;
+	margin: 0 28px 0 0;
+	width: 100px;
+	height: 100px;
+	background-color: #DADADA;
+	border: 0.5px solid #CDCDCD;
+	-webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+	-moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+	box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-color: #DADADA;
+	border: 0.5px solid #CDCDCD;
+	-webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+	-moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+	box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
 }
 
-.precentage.up:before {
-	content: "+";
+
+.carousel_wrapper li:hover {
+	transition: 0.2s;
+	filter: grayscale(0);
+}
+.carousel_wrapper h3 {
+    color: #000;
+    margin-top: 52px;
 }
 
-.precentage.down {
-	color: #FFA3A6;
+.scroll-arrow {
+	width: 10%;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+	font-size: 34px;
+	transition: 0.2s;
+	width: 20px;
+	height: 32px;
+	display: inline-block;
+	top: 50%;
+	background-size: cover;
+	background-image: url(img/left.svg);
+	text-indent: -9999px;
+	margin: 0 17px 0 0;
 }
-.crypto-holder {
-    position: relative;
-    padding: 0 42px;
-    /* overflow-x: hidden; */
+
+.scroll-arrow:hover {
+	transition: 0.2s;
+	opacity: 1;
+}
+
+.scroll-arrow#scroll-right {
+	background-image: url(img/right.svg);
+	margin: 0 0 0 17px;
+}
+@media only screen and (min-width: 768px){
+.carousel_wrapper ul {
+    width: auto;
+    max-width: 608px;
+    height: 130px;
+}
+
+.carousel_wrapper ul li {
+    width: 130px;
+    height: 130px;
+}
+}
+
+.carousel {
+    margin-bottom: 55px;
 }

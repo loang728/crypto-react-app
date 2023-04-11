@@ -6,7 +6,7 @@ import './WhyUS.css';
 const About = () => {
   return (
     <h2>
-      About us page
+      About us page updated
     </h2>
   );
 }

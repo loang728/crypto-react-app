@@ -1,7 +1,7 @@
 {
   "name": "react-educational",
   "version": "0.1.0",
-  "homepage": "https://loang728.github.io/crypto-react-app",
+  "homepage": "https://loang728.github.io/react-educational/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",

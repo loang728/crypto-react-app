@@ -16,31 +16,31 @@ nav a.logo {
 nav ul.menu {
 	display: none;
 }
+
+ul.menu li a {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
 @media only screen and (min-width: 1200px){
 nav ul.menu {
-    display: inline-block;
+    display: block;
     float: right;
 }
 nav a.logo {
     float: left;
     margin: 33px 0 0 30px;
     /* vertical-align: middle; */
-    display: inline-block;
+    display:block;
 }
+
 nav ul.menu li {
     float: left;
     margin: 0 50px 0 0;
 }
-}
-
-ul.menu li a {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-    color: #FFFFFF;
-    /* margin: 0 50px 0 0; */
-    text-decoration: none;
 }
 

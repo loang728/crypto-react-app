@@ -1,6 +1,19 @@
 import './Carousel.css';
 
+const CarouselElement = (props) => {
+   return (
+     <li key={props.id} >
+       {props.numberDisplay}
+     </li>
+   );
+ }
+
 function Carousel() {
+   const numbers = [1, 2, 3, 4, 5];
+   const listItems = numbers.map((number) =>
+    <CarouselElement key={number} numberDisplay={number}  />
+ );
+
   return (
     <div className="carousel_wrapper">
     <h3>Event Gallery</h3>
@@ -9,12 +22,7 @@ function Carousel() {
           .
        </div>
        <ul id="imgList">
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
-          <li>5</li>
-          <li>6</li>
+       {listItems}
        </ul>
        <div className="scroll-arrow" id="scroll-right" onclick="scrollRight()">
           .

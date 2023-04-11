@@ -6,6 +6,7 @@ import Register from './Register';
 import WhyUs from './WhyUS';
 import Form from './Form';
 import Carousel from './Carousel';
+import Moto from './Moto';
 import StaticImageSet from './StaticImageSet';
 import { useMediaQuery } from 'react-responsive';
 
@@ -23,6 +24,7 @@ function Home() {
         <Register />
         <Form />
         <Carousel />
+        
         {/*
         
         <Registration/>
@@ -33,7 +35,7 @@ function Home() {
   </div>
       </div>
 
-
+      <Moto />
 
  </>
   );

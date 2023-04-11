@@ -1,5 +1,6 @@
 import './App.css';
 import Navigation from './Navigation';
+import Footer from './Footer';
 import Home from './Home';
 import About from './About';
 
@@ -20,6 +21,7 @@ function App() {
               </Routes>
 
         </article>
+        <Footer/>
       </div>
     </>
   );
