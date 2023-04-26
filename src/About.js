@@ -1,8 +1,5 @@
 import './WhyUS.css';
 
-
-
-
 const About = () => {
   return (
     <h2>
@@ -10,11 +7,5 @@ const About = () => {
     </h2>
   );
 }
-
-
-
-
-
-
 
 export default About;

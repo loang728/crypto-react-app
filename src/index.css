@@ -1,101 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Moon+Dance&family=Roboto&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Moon+Dance&family=Roboto&display=swap');
 
-html,
- body,
- div,
- span,
- applet,
- object,
- iframe,
- h1,
- h2,
- h3,
- h4,
- h5,
- h6,
- p,
- blockquote,
- pre,
- a,
- abbr,
- acronym,
- address,
- big,
- cite,
- code,
- del,
- dfn,
- em,
- img,
- ins,
- kbd,
- q,
- s,
- samp,
- small,
- strike,
- strong,
- sub,
- sup,
- tt,
- var,
- b,
- u,
- i,
- center,
- dl,
- dt,
- dd,
- ol,
- ul,
- li,
- fieldset,
- form,
- label,
- legend,
- table,
- caption,
- tbody,
- tfoot,
- thead,
- tr,
- th,
- td,
- article,
- aside,
- canvas,
- details,
- embed,
- figure,
- figcaption,
- footer,
- header,
- hgroup,
- menu,
- nav,
- output,
- ruby,
- section,
- summary,
- time,
- mark,
- audio,
-video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -104,17 +18,7 @@ video {
 	vertical-align: baseline
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block
 }
 
@@ -123,20 +27,15 @@ body {
   background-color: #201D27;
 }
 
-ol,
-ul {
+ol, ul {
 	list-style: none
 }
 
-blockquote,
-q {
+blockquote, q {
 	quotes: none
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote:before, blockquote:after, q:before, q:after {
 	content: '';
 	content: none
 }
@@ -175,7 +74,6 @@ article p {
 
 article .gray-bg p {
 	color: #fff;
-	/* margin: 40px auto; */
 }
 
 div.intro {
@@ -185,8 +83,7 @@ div.intro {
 	background: url("img/general-0-swaps-mobile.png") no-repeat top;
 }
 
-a.cta,
-.btn {
+a.cta, .btn {
 	display: inline-block;
 	width: 260px;
 	height: 40px;
@@ -202,15 +99,10 @@ a.cta,
 	width: 100%;
 }
 
-a.cta.open-account {
+a.cta.open-account { max-width: 350px; }
 
-	max-width: 350px;
+.btn.disabled { background-color: #CCCCCC; }
 
-}
-
-.btn.disabled {
-	background-color: #CCCCCC;
-}
 .form-revamp__wrapper {
   /* width: 260px; */
   margin: auto;

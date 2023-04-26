@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer>
     <div className="container partner">
-       <div className="footer-partners__wrapper hidden-xs hidden-sm">
+       <div className="footer-partners-wrapper">
          
           <div className="footer-partners__social">
              <div className="social-icons">
@@ -36,7 +36,6 @@ function Footer() {
              <li>Cookie Policy</li>
              <li>Terms and Conditions</li>
           </ul>
-          <img  src={require('./img/trading-point.png')}  alt="Trading Point" width="182" height="60"/>
        </div>
     </div>
  </footer>

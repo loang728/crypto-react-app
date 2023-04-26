@@ -1,6 +1,9 @@
-html{font-family: 'Roboto', sans-serif;}
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
 .highlight {
-  color: #D51820;
+	color: #D51820;
 }
 
 
@@ -13,14 +16,18 @@ article {
 	color: #fff;
 	text-align: center;
 	position: relative;
-  min-height: 425px;
+	min-height: 425px;
 }
-h1, h2, h3 {
-  font-size: 28px;
-  line-height: 38px;
-  font-family: 'Roboto', sans-serif;
-  margin: 0 auto 30px;
+
+h1,
+h2,
+h3 {
+	font-size: 28px;
+	line-height: 38px;
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto 30px;
 }
+
 h2 {
 	font-size: 32px;
 	font-weight: 300;
@@ -38,19 +45,22 @@ h2 {
 article p {
 	margin: auto;
 }
+
 div.gray-bg {
 	background-color: #201D27;
-  color:#fff;
+	color: #fff;
 }
 
 .base-layer {
-  background-color: #201D27;
+	background-color: #201D27;
 }
-.base-layer, .gradient {
-  height: 615px;
-  width: 100%;
-  position: absolute;
-  top: 0;
+
+.base-layer,
+.gradient {
+	height: 615px;
+	width: 100%;
+	position: absolute;
+	top: 0;
 }
 
 
@@ -58,7 +68,7 @@ div.gray-bg {
 	z-index: 1;
 	position: relative;
 	overflow: hidden;
-  font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .base-layer {
@@ -69,8 +79,9 @@ div.gray-bg {
 	background: linear-gradient(180deg, rgba(32, 46, 71, 0.65) 36.53%, rgba(32, 46, 71, 0.6175) 57.69%, rgba(32, 46, 71, 0.585) 78.84%, rgba(32, 46, 71, 0) 100%);
 	mix-blend-mode: multiply;
 }
+
 .content {
-  z-index: 1;
-  position: relative;
-  overflow: hidden;
+	z-index: 1;
+	position: relative;
+	overflow: hidden;
 }

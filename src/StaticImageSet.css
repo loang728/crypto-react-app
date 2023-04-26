@@ -3,30 +3,34 @@
 	background-position-x: -44px;
 	background-size: 1467px auto;
 }
+
 .static-bg-image {
 	position: absolute;
 	z-index: 1;
 	max-width: 100%;
 	height: auto;
 }
+
 .static-bg-image.redzero {
-    right: -69px;
-    top: -81px;
-    z-index: -1;
+	right: -69px;
+	top: -81px;
+	z-index: -1;
 }
 
 .static-bg-image {
-    position: absolute;
-    z-index: 1;
-    max-width: 100%;
-    height: auto;
+	position: absolute;
+	z-index: 1;
+	max-width: 100%;
+	height: auto;
 }
-@media only screen and (min-width: 768px){
-.intro-holder {
-    background-image: url(img//general-0-swaps-tablet.png);
-    background-size: 1145px;
-    background-position-x: center;
-}}
+
+@media only screen and (min-width: 768px) {
+	.intro-holder {
+		background-image: url(img//general-0-swaps-tablet.png);
+		background-size: 1145px;
+		background-position-x: center;
+	}
+}
 
 .static-bg-image.number {
 	left: 0;
@@ -48,6 +52,7 @@
 	top: -228px;
 	z-index: -2;
 }
+
 .static-bg-image.greentint {
 	right: -90px;
 	top: -228px;
@@ -60,6 +65,6 @@
 	z-index: -1;
 }
 
-.greentintline{
-	display:none;
+.greentintline {
+	display: none;
 }

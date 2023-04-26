@@ -1,5 +1,4 @@
 import './App.css';
-import Navigation from './Navigation';
 import Intro from './Intro';
 import Crypto from './Crypto';
 import Register from './Register';
@@ -7,8 +6,6 @@ import WhyUs from './WhyUS';
 import Form from './Form';
 import Carousel from './Carousel';
 import Moto from './Moto';
-import StaticImageSet from './StaticImageSet';
-import { useMediaQuery } from 'react-responsive';
 
 function Home() {
   return (
@@ -18,26 +15,16 @@ function Home() {
           <div className="gradient">.</div>
         </div>
         <div className="content">
-        <Intro />
-        <Crypto />
-        <WhyUs />
-        <Register />
-        <Form />
-        <Carousel />
-        
-        {/*
-        
-        <Registration/>
-        <Confirm/>
-        <EventGallery/>
-        <Moto/> 
-  */}
-  </div>
+          <Intro />
+          <Crypto />
+          <WhyUs />
+          <Register />
+          <Form />
+          <Carousel />
+        </div>
       </div>
-
       <Moto />
-
- </>
+    </>
   );
 }
 
