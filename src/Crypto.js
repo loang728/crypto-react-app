@@ -25,7 +25,7 @@ function Crypto() {
     <div className="crypto-holder">
       <StaticImageSet />
       <ul className="crypto">
-        
+
         {listItems}
       </ul>
     </div>
