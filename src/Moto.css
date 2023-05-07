@@ -75,18 +75,22 @@ ul.big-fair-human {
 	height: 53px;
 }
 
-
+.bfh_description p {margin-bottom:0;}
 
 ul.big-fair-human {
 	max-width: 520px;
 	margin-top: 0;
 }
 
+ul.big-fair-human li {
+    margin-bottom: 50px;
+}
 @media only screen and (min-width: 768px) {
 	ul.big-fair-human li {
 		display: inline-block;
 		width: 49%;
 	}
+	
 }
 
 @media only screen and (min-width: 1200px) {
@@ -101,6 +105,7 @@ ul.big-fair-human {
 		text-align: left;
 		max-width: 209px;
 		margin: initial;
+		
 	}
 
 	.bfh_wrapper {

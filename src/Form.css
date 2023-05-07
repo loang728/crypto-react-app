@@ -121,3 +121,44 @@ input {
     /* box-sizing: border-box; */
     border: none;
 }
+div.success {
+    padding: 47px 32px;
+    color: #3C763D;
+    background-color: #fff;
+    margin: 30px 0;
+    height: 211px;
+    line-height: 211px;
+    box-sizing: border-box;
+    max-width: 827px;
+    width: 100%;
+	display:none;
+}
+.success.show {
+    display: block;
+}
+.success span.ok {
+    background-image:url("./img/green-tick.svg");;
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    content: " ";
+    margin-right: 14px;
+}
+
+.confirm {
+    height: 52px;
+    line-height: 52px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0 0 32px 0;
+}
+.success p.sm {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3C763D;
+}

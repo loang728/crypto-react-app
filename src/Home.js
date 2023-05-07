@@ -5,7 +5,9 @@ import Register from './Register';
 import WhyUs from './WhyUS';
 import Form from './Form';
 import Carousel from './Carousel';
+import CarouselContainer from './CarouselContainer';
 import Moto from './Moto';
+
 
 function Home() {
   return (
@@ -20,7 +22,17 @@ function Home() {
           <WhyUs />
           <Register />
           <Form />
-          <Carousel />
+          <CarouselContainer>
+            <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
+            <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
+            <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
+            <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
+            <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
+            <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
+            <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
+            <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
+            <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
+          </CarouselContainer>
         </div>
       </div>
       <Moto />

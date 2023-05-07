@@ -124,6 +124,12 @@ ul.advantages li p {
 		margin: 25px auto 60px;
 	}
 }
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+ul.advantages li {
+    width: 100%;
+    max-width: 530px;
+}
+}
 
 @media only screen and (min-width: 1200px) {
 	ul.advantages {
