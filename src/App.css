@@ -34,8 +34,6 @@ h2 {
 	line-height: 43px;
 	letter-spacing: 0px;
 	text-align: center;
-
-	font-size: 32px;
 	font-weight: 700;
 	line-height: 43px;
 	letter-spacing: 0px;
@@ -44,6 +42,7 @@ h2 {
 
 article p {
 	margin: auto;
+	padding: 0 20px;
 }
 
 div.gray-bg {

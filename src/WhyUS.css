@@ -117,6 +117,10 @@ ul.advantages li p {
 	text-align: left;
 	margin: 0;
 }
+.bfh_description {
+
+margin-bottom:30px;
+}
 
 @media only screen and (min-width: 768px) {
 	p.why {

@@ -1,11 +1,11 @@
-.form-revamp {
+.form {
 	padding: 0 35px 71px 25px;
 }
 
-.form-revamp__wrapper {
-	/* width: 260px; */
+.form_wrapper {
 	margin: auto;
 	max-width: 455px;
+	padding: 0 35px 71px 25px;
 }
 
 ul.password-criteria li,
@@ -59,14 +59,6 @@ ul.password-criteria li:before,
     text-align: left;
 
 }
-
-.form-revamp__wrapper {
-	/* width: 260px; */
-	margin: auto;
-	max-width: 455px;
-	padding: 0 35px 71px 25px;
-}
-
 
 
 

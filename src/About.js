@@ -6,7 +6,7 @@ const AboutComponent = () => {
 
   return (
     <h2 >
-     Apples are {currentColor}
+    This is just an example to show how Router works
     </h2>
   );
 }

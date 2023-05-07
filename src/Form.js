@@ -1,6 +1,8 @@
 import './Form.css';
 import { useState } from 'react';
 
+
+//Criteria Functions
 function isValidEmail(email) {
   return /\S+@\S+\.\S+/.test(email);
 }
@@ -23,7 +25,8 @@ function containsSpecialChars(str) {
   return specialChars.test(str);
 }
 
-/* Checks if authentication detais are ready to be submited in order to enable button continue */
+
+/* Checks if authentication details are ready to be submited in order to enable button continue */
 
 function proceed(email, pass) {
   return (isValidEmail(email) && containsSpecialChars(pass) && hasUpperCase(pass) && hasLowerCase(pass) && containsNumbers(pass));
@@ -34,8 +37,8 @@ const Form = (props) => {
   const [password, setPassword] = useState('');
   const [go, setGo] = useState(false);
   const [success, setSuccess] = useState(false);
-  
-/*Creates criteria items list */
+
+  /*Creates criteria items list */
 
   const CriteriaList = () => {
     return (<ul className="password-criteria">
@@ -61,15 +64,15 @@ const Form = (props) => {
   const confirmSuccesss = (e) => {
     setSuccess(true);
     e.preventDefault();
-    setUsername("");  
-    setPassword("");  
+    setUsername("");
+    setPassword("");
   }
 
   return (
     <>
-      <div class="form-revamp__wrapper">
+      <div className="form_wrapper">
         <form id="basic_profile">
-          <label for="email">Email</label>
+          <label id="email">Email</label>
           <input className="form-control"
             id="email"
             value={username}
@@ -80,24 +83,29 @@ const Form = (props) => {
 
           { /* Checks if username is a valid email adress */
             (username.length > 0) ? (isValidEmail(username)) ? "Valid Email" : <div id="emailerr" className="error red">
-              Please enter a valid email address</div> :  null}
-          <label for="password">Password</label>
+              Please enter a valid email address</div> : null
+          }
+
+          <label id="password">Password</label>
           <div className="input-group">
             <input className="form-control"
               onChange={(e) => setPassword(e.target.value)}
               id="password" name="password" type="password" required />
           </div>
+   
           <CriteriaList />
-        <button className={proceed(username, password) ? "btn" : "btn disabled"} id="btnsubmit" type="submit" disabled={!proceed(username, password)} onClick={confirmSuccesss}>Continue</button>
+          <button className={proceed(username, password) ? "btn" : "btn disabled"} id="btnsubmit" type="submit" disabled={!proceed(username, password)} onClick={confirmSuccesss}>Continue</button>
         </form>
-        <p class="note">Don’t have an account? <a class="highlight underline">Create one here</a> and register for the event</p>
-        <p class="tc" >Terms and Conditions apply<span class="highlight">*</span>. To read the full T&Cs, <a class="highlight underline">click here</a>.</p>
-        <div class={success ? "success show" : "success"}>
-          <div class="confirm"><span class="ok">.</span>Registration Successful</div>
-          <p class="sm">Thank you for registering for our event with XM. You will receive an email shortly with confirmation of your registration.</p>
+
+        <p className="note">Don’t have an account? <a className="highlight underline">Create one here</a> and register for the event</p>
+        <p className="tc" >Terms and Conditions apply<span className="highlight">*</span>. To read the full T&Cs, <a className="highlight underline">click here</a>.</p>
+       
+        <div className={success ? "success show" : "success"}>
+          <div className="confirm"><span className="ok">.</span>Registration Successful</div>
+          <p className="sm">Thank you for registering for our event with XM. You will receive an email shortly with confirmation of your registration.</p>
         </div>
       </div>
-  </>
+    </>
   );
 }
 

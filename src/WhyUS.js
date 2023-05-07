@@ -1,4 +1,5 @@
 import './WhyUS.css';
+
 const WhyUsTitle = () => {
   return (
     <>
@@ -26,8 +27,6 @@ const AdvantagesList = () => {
     </ul>
   )
 }
-
-
 
 const WhyUs = (props) => {
   return (

@@ -26,7 +26,7 @@
 
 @media only screen and (min-width: 768px) {
 	.intro-holder {
-		background-image: url(img//general-0-swaps-tablet.png);
+		background-image: url('./img/general-0-swaps-tablet.png');
 		background-size: 1145px;
 		background-position-x: center;
 	}

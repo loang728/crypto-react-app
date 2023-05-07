@@ -4,7 +4,6 @@ import Crypto from './Crypto';
 import Register from './Register';
 import WhyUs from './WhyUS';
 import Form from './Form';
-import Carousel from './Carousel';
 import CarouselContainer from './CarouselContainer';
 import Moto from './Moto';
 

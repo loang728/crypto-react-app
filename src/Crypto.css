@@ -39,9 +39,7 @@ ul.crypto li span {
 	color: #000;
 }
 
-
 span.ico {
-
 	width: 35px;
 	height: 35px;
 	border-radius: 50%;
@@ -129,5 +127,4 @@ div.precentage {
 .crypto-holder {
     position: relative;
     padding: 0 42px;
-    /* overflow-x: hidden; */
 }

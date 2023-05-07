@@ -12,10 +12,11 @@ const CryptoElement = (props) => {
   );
 }
 
+//Values to display
 const itemsToDiplay = ["BTC", "ETH", "XRP", "LTC", "BCH"];
 
 function Crypto() {
-
+//Creating list with the details for the items to display
   const listItems = Records.data.map((element) =>
     (itemsToDiplay.includes(element.symbol)) ? <CryptoElement key={element.id} id={element.id} abr={element.symbol} name={element.name} amount={element.price_usd} precentage={element.percent_change_24h} />
       : null
@@ -25,15 +26,10 @@ function Crypto() {
     <div className="crypto-holder">
       <StaticImageSet />
       <ul className="crypto">
-
         {listItems}
       </ul>
     </div>
   );
 }
-
-
-
-
 
 export default Crypto;
