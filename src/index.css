@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Moon+Dance&family=Roboto&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',     sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block
+}
+
+body {
+	line-height: 1;
+  background-color: #201D27;
+}
+
+ol, ul {
+	list-style: none
+}
+
+blockquote, q {
+	quotes: none
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+html {
+	height: 100%;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+
+.clearfix {
+	overflow: auto;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+article {
+	color: #fff;
+	text-align: center;
+	position: relative;
+}
+
+article p {
+	margin: auto;
+}
+
+article .gray-bg p {
+	color: #fff;
+}
+
+div.intro {
+	text-align: center;
+	padding: 97px 30px;
+	color: #fff;
+	background: url("img/general-0-swaps-mobile.png") no-repeat top;
+}
+
+a.cta, .btn {
+	display: inline-block;
+	width: 260px;
+	height: 40px;
+	margin: 15px auto;
+	color: #fff;
+	background-color: #29A643;
+	font: normal small-caps bold 24px/40px 'Bebas Neue Pro', sans-serif;
+	text-align: center;
+	font-family: "Bebas", "BebasExt", sans-serif;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	border: none;
+	width: 100%;
+}
+
+a.cta.open-account { max-width: 350px; }
+
+.btn.disabled { background-color: #CCCCCC; }
+
+.form-revamp__wrapper {
+  /* width: 260px; */
+  margin: auto;
+  max-width: 455px;
+}
